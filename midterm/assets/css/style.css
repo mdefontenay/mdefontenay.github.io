@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #555;
+    background-color: #f6efe1;
+}
+#uber {
+    text-align: center;
+    color:black;
+    margin:auto;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(221, 195, 26);
+    padding: 10px;
+}
+#logo {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+#banner {
+    display: block;
+    margin-left: 5%;
+    height: 300px;
+}
+#menu_list {
+    font-size: 17pt;
+    display: absolute;
+    margin-top: -300px;
+    margin-left: 72%;
+    margin-right: 5%;
+    line-height: 1.37;
+    background-color: white;
+    padding: 2px;
+}
+a {
+    color:black;
+}
+#about {
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 10pt;
+    border: 3px solid #cccccc; 
+}
+#sausage {
+    text-indent: 50px;
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 10pt;
+    border: 3px solid #cccccc; 
+}
