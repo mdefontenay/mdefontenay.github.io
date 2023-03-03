@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position: fixed;
+}
+
+.content {
+    width: 800px;
+    /* PROBLEM 2: Align the page content to the center of the screen */
+    margin-left: 23%;
+}
+
+#image-banner {
+    background-image: url('../img/sf_banner.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+#other-posts {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.image-card, .image-card-color-overlay {
+    width: 380px;
+    height: 200px;
+}
+
+.image-card {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    /* PROBLEM 3: Give .image-card the appropriate position type */
+    position: relative;
+    z-index: 1;
+}
+
+.image-card:last-child {
+    margin-right: 0;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-color-overlay {
+    position: absolute;
+    /* PROBLEM 4: Move the color overlay to cover the image properly */
+    top: 0px;
+    left: 0px;
+    /* PROBLEM 5: What should the opacity be when there is no hover? */
+    opacity: 0;
+    transition: 0.3s;
+    background-color: navy;
+    z-index: 2;
+}
+
+.image-card:hover .image-card-color-overlay {
+    /* PROBLEM 5: Pick an opacity for the blue hover effect */
+    opacity: 0.7;
+}
+
+.image-card-text {
+    /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 3;
+    color: white;
+    font-family: 'Nunito', serif;
+    font-size: 20pt;
+}
+
+
+/* PROBLEM 7: Improve the typography and colors of this page! */
+
+#title {
+    font-family: 'Nunito', serif;
+    font-size: 30pt;
+    color: rgb(28, 28, 28);
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Nunito', serif;
+    font-size: 30pt;
+    color: rgb(28, 28, 28);
+    padding-top: 30px;
+}
+
+h2 {
+    font-family: 'Nunito', serif;
+    font-size: 20pt;
+    color: rgb(28, 28, 28);
+}
+
+h3 {
+    font-family: 'Nunito', serif;
+    font-size: 20pt;
+    color: rgb(28, 28, 28);
+}
+
+p {
+    font-family: 'Nunito', serif;
+    font-size: 13pt;
+    color: rgb(28, 28, 28);
+}
+
+#post {
+    margin-top: 3%;
+    background-color: rgb(248, 248, 248);
+    padding: 0px 10px 10px 10px;
+}
