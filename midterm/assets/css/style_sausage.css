@@ -1,0 +1,21 @@
+#back-button {
+    font-size: 20pt;
+    text-align: center;
+    margin: 1% 2% 2% 2%;
+}
+#white-link {
+    text-decoration: none;
+    color: #F6F5EC;
+    font-size: 30pt;
+}
+#sausage-paragraph {
+    align-items: center;
+    margin: 0% 24% 1% 26%;
+    padding: 7px 30px 30px 30px;
+
+    font-size: 23px;
+    width: 46.8%;
+    background-color: #F6F5EC;
+    z-index: -1;
+    border-radius: 15px;
+}

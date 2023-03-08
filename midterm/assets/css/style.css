@@ -1,81 +1,189 @@
+@font-face {
+    font-family: Rossetti;
+    src: url(font/rossetti.tff);
+}
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #555;
+    color: #404040;
     background-color: #2D2D2D;
 }
+a {
+    color:#404040;
+    text-decoration: none;
+}
+a:hover {
+    color: #8e751d;
+}
+#rossetti {
+    font-family: Rossetti;
+}
+
+/* ---------------------- Top ---------------------- */
+
 #top-bar {
     text-align: center;
-    color:black;
+    color: #363636;
     margin:auto;
     width: 100%;
     position: fixed;
     background-color: #EBC748;
     padding: 10px;
+    z-index: 4;
 }
 #header {
+    margin-top: 5.2px;
     width: 100%;
 }
-.menu-list {
-    text-decoration: underline;
+#open-daily {
+    position: absolute;
+    margin: 6.4% 0% 10% 14.1%;
+
+    border-bottom: 2.5px solid #EAEAEA;
+    padding-bottom: 7.1px;
+    padding-left: 188px;
+    
+    color: #EAEAEA;
+    font-size: 34.5pt;
+    font-family: rossetti;
+}
+#since-1966 {
+    position: absolute;
+    margin: 6.4% 0% 10% 58.9%;
+
+    border-bottom: 2.5px solid #EAEAEA;
+    padding-bottom: 7.1px;
+    padding-right: 188px;
+    
+    color: #EAEAEA;
+    font-size: 34.5pt;
+    font-family: rossetti;
+}
+
+/* ---------------------- Stickers ---------------------- */
+
+/* Bar */
+#bar {
+    position: absolute;
+    margin: 1% 0% 0% 11.3%;
+    height: 11%;
+}
+#bar-text {
+    font-size: 30pt;
+    font-family: rossetti;
+}
+.menu-bar {
+    position: absolute;
+    margin: 2.25% 0% 0% 16%;
+}
+.mail-bar {
+    position: absolute;
+    margin: 2.25% 0% 0% 29%;
+}
+.catering-bar {
+    position: absolute;
+    margin: 2.25% 0% 0% 46.7%;
+}
+.merch-bar {
+    position: absolute;
+    margin: 2.25% 0% 0% 62.2%;
+}
+.cold-bar {
+    position: absolute;
+    margin: 2.25% 0% 0% 75.5%;
+}
+
+/* Cupstack */
+#cupstack-sticker {
+    position: absolute;
+    margin: 55% 0% 0% 64%;
+    height: 27%;
+}
+
+/* Sausage */
+#sausage-sticker {
+    position: absolute;
+    margin: 68% 38% 0% 38%;
+    height: 27%;
+}
+.sausage-text {
+    position: absolute;
+    margin: 72.6% 40% 0% 44.5%;
     font-size: 27pt;
-    position: absolute;
-    line-height: 1.37;
-    padding: 2px;
-    margin: 84px 0px 0px 270px;
-    transform: rotate(-7.3deg);
-    z-index: 1;
+    transform: rotate(-2deg);
 }
-.menu-list:hover {
-    cursor: pointer;
-}
-#menu {
-    font-size: 37pt;
-}
-#menu-back {
-    position: absolute;
-    margin: 20px 0px 0px 175px;
-    height: 50%;
-}
-a {
-    color:black;
-}
+
+/* ---------------------- About ---------------------- */
+
 .about-square {
-    position: absolute;
-    margin: 40px 25% 0px 25%;
-    height: 600px;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8.7% 24% 8.5% 26%;
+
+    height: 950px;
+    width: 46.8%;
     background-color: #F6F5EC;
     z-index: -1;
+    border-radius: 15px;
+}
+
+#top-phrase {
+    margin: 31px;
+    text-align: center;
+    font-size: 25pt;
+}
+#food-home {
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 15%
+}
+#quote {
+    text-align: center;
+    margin: 4% 21% 5% 21%;
+    font-size: 18pt;
 }
 #about {
-    position: absolute;
-    margin: 6% 27.7% 0% 37%;
-    padding: 12px 10px 12px 10px;
+    margin: -1% 27.5% 0% -6%;
+    padding: 15px;
 
-    font-size: 15pt;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
     background-color: #DEDDD5;
     line-height: 1.3;
-}
-#sausage {
-    margin: 2% 25% 25%;
-    font-size: 15pt;
-    background-color: #F6F5EC;
-    padding: 40px;
+    border-radius: 15px;
 }
 
-#back {
-    font-size: 20pt;
-    color: #F6F5EC;
-    text-align: center;
-    margin-left: 47.7%;
-}
-#link-white {
-    color: #F6F5EC;
-}
-.footer {
+/* ---------------------- Footer ---------------------- */
+
+footer {
+    display: flex;
+    flex-direction: row;
+
     width: 100%;
-    height: 10px;
     margin-bottom: -100px;
+    background-color: #EBC748;
+    font-size: 10pt;
+}
+#footer-title {
+    font-size: 20pt;
+    font-family: Rossetti;
+}
+#line {
+    border-right: solid 2px #404040;
+    margin: 1%;
+    width: 0px;
+}
+.top-dog-picture {
+    margin: 1%;
+    width: 280px;
+    border-radius: 15px;
+}
+.city-footer {
+    width: 400px;
+    margin-top: 7px;
+    padding: 8px;
+}
+.contact-footer {
+    height: 200px;
+    width: 430px;
 }

@@ -1,0 +1,107 @@
+/* --------------- Bar --------------- */
+
+#bar-menu {
+    position: absolute;
+    margin: 0% 0% 0% 11.3%;
+    height: 11%;
+}
+.home-bar-menu {
+    position: absolute;
+    margin: 1.25% 0% 0% 13.3%;
+}
+.mail-bar-menu {
+    position: absolute;
+    margin: 1.25% 0% 0% 27.6%;
+}
+.catering-bar-menu {
+    position: absolute;
+    margin: 1.25% 0% 0% 45.8%;
+}
+.merch-bar-menu {
+    position: absolute;
+    margin: 1.25% 0% 0% 61.2%;
+}
+.cold-bar-menu {
+    position: absolute;
+    margin: 1.25% 0% 0% 74.5%;
+}
+
+/* --------------- Menu --------------- */
+
+.menu {
+    text-align: center;
+    margin: 7.7% 24% 3% 26%;
+    padding: 20px 0px 20px 0px;
+
+    font-size: 17px;
+    width: 46.8%;
+    background-color: #F6F5EC;
+    z-index: -1;
+    border-radius: 15px;
+}
+#select-menu:hover {
+    color: #aa9033;
+    cursor: pointer;
+}
+
+#grill-sticker {
+    position: absolute;
+    margin: 8% 0% 0% 60%;
+    height: 40%;
+}
+
+/* --------------- Display Hover --------------- */
+
+.frankfurter-img,
+.garlic_frankfurter-img,
+.bockwurst-img,
+.kielbasa-img,
+.calabrese-img,
+.hot-link-img,
+.bratwurst-img,
+.lemon-chicken-img,
+.smoked-chicke-apple-img,
+.mango-with-jalapeno-img,
+.the-wienie-img {
+    display: none;
+    position: absolute;
+    height: 15%;
+}
+
+#select:hover + .frankfurter-img,
+#select:hover + .garlic_frankfurter-img,
+#select:hover + .bockwurst-img,
+#select:hover + .kielbasa-img,
+#select:hover + .calabrese-img,
+#select:hover + .hot-link-img,
+#select:hover + .bratwurst-img,
+#select:hover + .lemon-chicken-img,
+#select:hover + .smoked-chicke-apple-img,
+#select:hover + .mango-with-jalapeno-img,
+#select:hover + .the-wienie-img {
+    display: block;
+}
+
+/* ------------------------------ */
+
+.frankfurter-img { margin: 90px 0% 0% -13% }
+
+.garlic_frankfurter-img { margin: 32px 0% 0% -13% }
+
+.bockwurst-img { margin: -26px 0% 0% -13% }
+
+.kielbasa-img { margin: -84px 0% 0% -13% }
+
+.calabrese-img { margin: -142px 0% 0% -13% }
+
+.hot-link-img { margin: -200px 0% 0% -13% }
+
+.bratwurst-img { margin: -258px 0% 0% -13% }
+
+.lemon-chicken-img { margin: -316px 0% 0% -13% }
+
+.smoked-chicke-apple-img { margin: -374px 0% 0% -13% }
+
+.mango-with-jalapeno-img { margin: -432px 0% 0% -13% }
+
+.the-wienie-img { margin: -490px 0% 0% -13% }
