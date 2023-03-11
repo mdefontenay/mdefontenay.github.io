@@ -1,21 +1,29 @@
-#back-button {
-    font-size: 20pt;
-    text-align: center;
-    margin: 1% 2% 2% 2%;
+.bar-stickers-sau {
+    position: relative;
+    margin: 25px -900px 0px 0px;
+    width: 1100px;
 }
-#white-link {
-    text-decoration: none;
-    color: #F6F5EC;
-    font-size: 30pt;
+.back-bar {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -3px
 }
+
 #sausage-paragraph {
-    align-items: center;
-    margin: 0% 24% 1% 26%;
-    padding: 7px 30px 30px 30px;
+    margin: 86.5px 0px 0px 0px;
+    padding: 30px;
 
     font-size: 23px;
-    width: 46.8%;
+    width: 640px;
     background-color: #F6F5EC;
     z-index: -1;
     border-radius: 15px;
+}
+#title {
+    font-family: rossetti;
+    font-size: 30pt;
+    margin-bottom: 1%;
+}
+footer {
+    margin-top: 90px;
 }

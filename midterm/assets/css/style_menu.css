@@ -1,46 +1,30 @@
-/* --------------- Bar --------------- */
+/* --------------- Menu Bar --------------- */
 
-#bar-menu {
-    position: absolute;
-    margin: 0% 0% 0% 11.3%;
-    height: 11%;
-}
-.home-bar-menu {
-    position: absolute;
-    margin: 1.25% 0% 0% 13.3%;
-}
-.mail-bar-menu {
-    position: absolute;
-    margin: 1.25% 0% 0% 27.6%;
-}
-.catering-bar-menu {
-    position: absolute;
-    margin: 1.25% 0% 0% 45.8%;
-}
-.merch-bar-menu {
-    position: absolute;
-    margin: 1.25% 0% 0% 61.2%;
-}
-.cold-bar-menu {
-    position: absolute;
-    margin: 1.25% 0% 0% 74.5%;
+.bar-stickers-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    position: relative;
+    margin: 25px 45px 0px 0px;
+    width: 1100px;
 }
 
 /* --------------- Menu --------------- */
 
 .menu {
     text-align: center;
-    margin: 7.7% 24% 3% 26%;
+    margin-top: 90px;
     padding: 20px 0px 20px 0px;
 
     font-size: 17px;
-    width: 46.8%;
+    width: 700px;
     background-color: #F6F5EC;
     z-index: -1;
     border-radius: 15px;
 }
 #select-menu:hover {
-    color: #aa9033;
+    color: #8e751d;
     cursor: pointer;
 }
 

@@ -1,22 +1,45 @@
+@import url(//db.onlinewebfonts.com/c/96996b95c19ecf8733387b6c0b2311e3?family=Rossetti);
+
 @font-face {
-    font-family: Rossetti;
-    src: url(font/rossetti.tff);
+    font-family: "Rossetti";
+    src: url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.eot");
+    src: url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.woff") format("woff"), url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/96996b95c19ecf8733387b6c0b2311e3.svg#Rossetti") format("svg");
 }
+
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #404040;
     background-color: #2D2D2D;
 }
+
 a {
-    color:#404040;
-    text-decoration: none;
+    color: #404040;
 }
+
 a:hover {
     color: #8e751d;
 }
+
 #rossetti {
     font-family: Rossetti;
+}
+
+#title {
+    font-family: rossetti;
+    font-size: 30pt;
+    text-align: center;
+}
+
+#normal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* ---------------------- Top ---------------------- */
@@ -24,93 +47,145 @@ a:hover {
 #top-bar {
     text-align: center;
     color: #363636;
-    margin:auto;
     width: 100%;
     position: fixed;
     background-color: #EBC748;
     padding: 10px;
     z-index: 4;
 }
-#header {
-    margin-top: 5.2px;
-    width: 100%;
+
+#banner {
+    position: relative;
+    margin-top: -178.8px;
+    height: 169px;
+    z-index: -1;
 }
+
+#header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#logo {
+    height: 140px;
+    margin: 20px;
+}
+
 #open-daily {
     position: absolute;
-    margin: 6.4% 0% 10% 14.1%;
+    margin: 57.7px 0px 0px -420px;
 
     border-bottom: 2.5px solid #EAEAEA;
     padding-bottom: 7.1px;
     padding-left: 188px;
-    
+
     color: #EAEAEA;
     font-size: 34.5pt;
     font-family: rossetti;
 }
+
 #since-1966 {
     position: absolute;
-    margin: 6.4% 0% 10% 58.9%;
+    margin: 57.7px 0px 0px 238px;
 
     border-bottom: 2.5px solid #EAEAEA;
     padding-bottom: 7.1px;
     padding-right: 188px;
-    
+
     color: #EAEAEA;
     font-size: 34.5pt;
     font-family: rossetti;
 }
 
-/* ---------------------- Stickers ---------------------- */
+/* ---------------------- Mini Top ---------------------- */
 
-/* Bar */
-#bar {
-    position: absolute;
-    margin: 1% 0% 0% 11.3%;
-    height: 11%;
+#mini-banner {
+    position: relative;
+    margin-top: -127.7px;
+    height: 116.5px;
+    z-index: -1;
 }
+
+#mini-logo {
+    height: 93px;
+    margin: 18px;
+}
+
+#mini-open-daily {
+    position: absolute;
+    margin: 43px 0px 0px -278px;
+
+    border-bottom: 2px solid #EAEAEA;
+    padding-bottom: 4px;
+    padding-left: 125px;
+
+    color: #EAEAEA;
+    font-size: 23pt;
+    font-family: rossetti;
+}
+
+#mini-since-1966 {
+    position: absolute;
+    margin: 43px 0px 0px 159px;
+
+    border-bottom: 2px solid #EAEAEA;
+    padding-bottom: 4px;
+    padding-right: 125px;
+
+    color: #EAEAEA;
+    font-size: 23pt;
+    font-family: rossetti;
+}
+
+/* ---------------------- Menu Bar ---------------------- */
+
+/* Sticker */
+.bar-stickers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: relative;
+    margin: 25px 45px 0px 0px;
+    width: 1100px;
+}
+
+#bar-stick {
+    margin: 0px 19.5px 0px 19.5px;
+    height: 85px;
+}
+
+/* Text */
 #bar-text {
     font-size: 30pt;
     font-family: rossetti;
+    margin-top: -67px;
 }
+
 .menu-bar {
     position: absolute;
-    margin: 2.25% 0% 0% 16%;
+    margin-left: -485px;
 }
+
 .mail-bar {
     position: absolute;
-    margin: 2.25% 0% 0% 29%;
+    margin-left: -305px;
 }
+
 .catering-bar {
     position: absolute;
-    margin: 2.25% 0% 0% 46.7%;
+    margin-left: -50px;
 }
+
 .merch-bar {
     position: absolute;
-    margin: 2.25% 0% 0% 62.2%;
+    margin-left: 170px;
 }
+
 .cold-bar {
     position: absolute;
-    margin: 2.25% 0% 0% 75.5%;
-}
-
-/* Cupstack */
-#cupstack-sticker {
-    position: absolute;
-    margin: 55% 0% 0% 64%;
-    height: 27%;
-}
-
-/* Sausage */
-#sausage-sticker {
-    position: absolute;
-    margin: 68% 38% 0% 38%;
-    height: 27%;
-}
-.sausage-text {
-    position: absolute;
-    margin: 72.6% 40% 0% 44.5%;
-    font-size: 27pt;
-    transform: rotate(-2deg);
+    margin-left: 355px;
 }
 
 /* ---------------------- About ---------------------- */
@@ -119,10 +194,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 8.7% 24% 8.5% 26%;
 
-    height: 950px;
-    width: 46.8%;
+    margin: 90px 0px 130px 0px;
+    height: 970px;
+    width: 700px;
+
     background-color: #F6F5EC;
     z-index: -1;
     border-radius: 15px;
@@ -133,16 +209,19 @@ a:hover {
     text-align: center;
     font-size: 25pt;
 }
+
 #food-home {
     width: 100%;
     border-radius: 15px;
     margin-left: 15%
 }
+
 #quote {
     text-align: center;
     margin: 4% 21% 5% 21%;
     font-size: 18pt;
 }
+
 #about {
     margin: -1% 27.5% 0% -6%;
     padding: 15px;
@@ -153,6 +232,27 @@ a:hover {
     border-radius: 15px;
 }
 
+/* Cupstack Sticker */
+#cupstack-sticker {
+    position: relative;
+    margin: -54% 0% 0% 95%;
+    height: 27%;
+}
+
+/* Sausage */
+#sausage-sticker {
+    position: relative;
+    margin-top: -4%;
+    height: 27%;
+}
+
+.sausage-text {
+    position: relative;
+    margin-top: -25%;
+    font-size: 27pt;
+    transform: rotate(-2deg);
+}
+
 /* ---------------------- Footer ---------------------- */
 
 footer {
@@ -160,30 +260,93 @@ footer {
     flex-direction: row;
 
     width: 100%;
-    margin-bottom: -100px;
     background-color: #EBC748;
     font-size: 10pt;
 }
+
 #footer-title {
     font-size: 20pt;
     font-family: Rossetti;
 }
+
 #line {
-    border-right: solid 2px #404040;
+    border: solid 1px #404040;
     margin: 1%;
     width: 0px;
 }
-.top-dog-picture {
-    margin: 1%;
-    width: 280px;
-    border-radius: 15px;
+
+#map {
+    width: 90%;
+    height: 90%;
+    margin: 4%
 }
+
 .city-footer {
-    width: 400px;
+    width: 25%;
     margin-top: 7px;
+    padding-bottom: 1%;
+}
+
+.contact-footer {
+    width: 25%;
+    height: 200px;
+    padding-bottom: 1%;
+}
+
+/* ---------------------- Table ---------------------- */
+
+table {
+    border-collapse: collapse;
+    margin-left: -80px;
+    width: 820px;
+    font-size: 11pt;
+}
+
+#top-left-corner {
+    border-top-left-radius: 13px;
+}
+
+#top-right-corner {
+    border-top-right-radius: 13px;
+}
+
+#bottom-left-corner {
+    border-bottom-left-radius: 13px;
+}
+
+#bottom-right-corner {
+    border-bottom-right-radius: 13px;
+}
+
+td,
+th {
+    text-align: left;
     padding: 8px;
 }
-.contact-footer {
-    height: 200px;
-    width: 430px;
+
+tr:nth-child(even) {
+    background-color: #EBC748;
+}
+
+tr:nth-child(odd) {
+    background-color: #efe1ae;
+}
+
+#main-row {
+    color: #EAEAEA;
+    border-radius: 13px 15px 0px 0px;
+    background-color: #A85050;
+}
+
+.total {
+    color: #EAEAEA;
+    background-color: #A85050;
+}
+
+.xsmall {
+    font-size: 10pt;
+}
+
+.xxsmall {
+    font-size: 8pt;
 }

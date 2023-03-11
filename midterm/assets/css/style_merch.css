@@ -1,0 +1,114 @@
+/* --------------- Menu Bar --------------- */
+
+.bar-stickers-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    position: relative;
+    margin: 25px 75px 0px 0px;
+    width: 1100px;
+}
+.home-bar-merch {
+    position: absolute;
+    margin-left: -505px;
+}
+.menu-bar-merch {
+    position: absolute;
+    margin-left: -280px;
+}
+.mail-bar-merch {
+    position: absolute;
+    margin-left: -97px;
+}
+.catering-bar-merch {
+    position: absolute;
+    margin-left: 160px;
+}
+.cold-bar-merch {
+    position: absolute;
+    margin-left: 380px;
+}
+
+/* --------------- Merch --------------- */
+
+.merch1 {
+    margin-top: 90px;
+    padding: 20px 0px 20px 0px;
+
+    font-size: 17px;
+    width: 700px;
+    height: 440px;
+    background-color: #F6F5EC;
+    z-index: -1;
+    border-radius: 15px;
+}
+.merch2 {
+    margin-top: 30px;
+    padding: 20px 0px 20px 0px;
+
+    font-size: 17px;
+    width: 700px;
+    height: 310px;
+    background-color: #F6F5EC;
+    z-index: -1;
+    border-radius: 15px;
+}
+.merch3 {
+    margin-top: 30px;
+    padding: 20px 0px 20px 0px;
+
+    font-size: 17px;
+    width: 700px;
+    height: 360px;
+    background-color: #F6F5EC;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+/* Merch 1*/
+#success-posters {
+    margin: 30px 0px 0px -50px;
+    border-radius: 15px;
+    height: 350px;
+}
+#desc-merch1 {
+    margin: -340px 40px 0px 220px;
+    font-size: 14pt;
+}
+
+/* Merch 1*/
+#mural-posters {
+    margin: 30px 0px 0px 350px;
+    border-radius: 15px;
+    height: 180px;
+}
+#desc-merch2 {
+    text-align: right;
+    margin: -170px 370px 0px 20px;
+    font-size: 14pt;
+}
+#dimension-merch2 {
+    text-align: center;
+    margin: 40px;
+}
+
+/* Merch 1*/
+#tshirts {
+    margin: 30px 0px 0px 20px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 250px;
+    background-color: #DDDCD4;
+}
+#desc-merch3 {
+    margin: -250px 20px 0px 350px;
+    font-size: 14pt;
+}
+#hat {
+    height: 90px;
+    padding: 5px;
+    margin: 15px 0px 0px 400px;
+    background-color: #DDDCD4;
+    border-radius: 15px;
+}

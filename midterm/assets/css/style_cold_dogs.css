@@ -1,0 +1,32 @@
+/* --------------- Menu Bar --------------- */
+
+.bar-stickers-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    position: relative;
+    margin: 25px 45px 0px 0px;
+    width: 1100px;
+}
+
+/* --------------- Menu --------------- */
+
+.cold {
+    margin-top: 90px;
+    padding: 20px;
+
+    font-size: 17px;
+    width: 660px;
+    background-color: #F6F5EC;
+    z-index: -1;
+    border-radius: 15px;
+}
+#title {
+    text-align: center;
+    font-size: 30pt;
+}
+#desc-cold {
+    text-align: center;
+    font-size: 12pt;
+}
