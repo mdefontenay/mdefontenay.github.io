@@ -7,7 +7,9 @@
     /*  [Problem 2]
         FIXME: Initialize flexbox vertically. Align the text and icons so that they
         are center aligned. */
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .dashboard{
     /*  [Problem 3]
@@ -21,22 +23,29 @@
         the three dot button icon that you added previously. Align them to the 
         center of each item. */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .dashboard--classes{
     /*  [Problem 5]
         FIXME: Use flexbox to make the classes tabs wrap in a 3x2 setup.
         Use flexbox to create equal spacing between each box. */
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .dashboard--classes__box{
     /*  [Problem 6]
-        FIXME: Set the widths of each class tab to be 31.5% of the width;
-
-        [Problem 7]
+        FIXME: Set the widths of each class tab to be 31.5% of the width;*/
+    width: 31.5%;
+        /*[Problem 7]
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
-
+    margin-bottom: 35px;
         
+}
+.dashboard--classes__box:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
 }
 /*  [Problem 8]
     FIXME: when the dashboard--classes__box class is hovered over, add a
@@ -48,6 +57,7 @@
 
 
 .dashboard--classes__box__image{
+    border-radius: 5px 5px 0px 0px;
     /*  [Problem 9]
         FIXME: The class tab should have a border-radius of 5px along the top
     	of the boxes. 
@@ -56,6 +66,18 @@
     	right corners. Simply put, the answer is NOT border-radius: 5px.) */
 
 
+}
+h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 /*  [Problem 10]
     FIXME: When h2, h3, and h4 are hovered over, add an underline and
@@ -69,7 +91,9 @@
     /*  [Problem 11]
         FIXME: Turn this element into a flex element and use the correct property
         to align the announcement icon and the text box. */
-        
-
-        
+    display: flex;
+    flex-direction: row;
+}
+#alarm-img {
+    height: 40px;
 }

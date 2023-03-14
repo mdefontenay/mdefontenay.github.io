@@ -200,7 +200,7 @@ html {
     width: 700px;
 
     background-color: #F6F5EC;
-    z-index: -1;
+    z-index: 1;
     border-radius: 15px;
 }
 
@@ -251,6 +251,7 @@ html {
     margin-top: -25%;
     font-size: 27pt;
     transform: rotate(-2deg);
+    cursor:auto
 }
 
 /* ---------------------- Footer ---------------------- */
