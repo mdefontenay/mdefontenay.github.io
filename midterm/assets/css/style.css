@@ -195,7 +195,7 @@ html {
     flex-direction: column;
     align-items: center;
 
-    margin: 90px 0px 130px 0px;
+    margin: 90px 0px 50px 0px;
     height: 970px;
     width: 700px;
 
@@ -263,6 +263,8 @@ footer {
     width: 100%;
     background-color: #EBC748;
     font-size: 10pt;
+    margin-top: 90px;
+    z-index: 3;
 }
 
 #footer-title {
@@ -292,6 +294,24 @@ footer {
     width: 25%;
     height: 200px;
     padding-bottom: 1%;
+}
+
+#legal {
+    margin-top: 220px;
+    width: 5%;
+    font-size: 7pt;
+    
+}
+
+/* ---------------------- Back ---------------------- */
+
+.bar-stickers-sau {
+    position: relative;
+    margin: 25px 0px 0px 0px;
+}
+.back-bar {
+    position: absolute;
+    margin: -3px 0px 0px -42px;
 }
 
 /* ---------------------- Table ---------------------- */
