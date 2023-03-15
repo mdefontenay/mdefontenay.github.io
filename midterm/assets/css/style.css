@@ -56,8 +56,10 @@ html {
 
 #banner {
     position: relative;
-    margin-top: -178.8px;
+    margin-top: -180px;
     height: 169px;
+    width: 100%;
+    object-fit: none;
     z-index: -1;
 }
 
@@ -101,9 +103,11 @@ header {
 
 #mini-banner {
     position: relative;
-    margin-top: -127.7px;
+    margin-top: -129px;
     height: 116.5px;
+    width: 100%;
     z-index: -1;
+    object-fit: none;
 }
 
 #mini-logo {
