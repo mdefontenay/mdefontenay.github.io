@@ -50,7 +50,7 @@ html {
     width: 100%;
     position: fixed;
     background-color: #EBC748;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     z-index: 4;
 }
 
@@ -75,7 +75,7 @@ header {
 
 #open-daily {
     position: absolute;
-    margin: 57.7px 0px 0px -420px;
+    margin: 57.7px 0 0 -420px;
 
     border-bottom: 2.5px solid #EAEAEA;
     padding-bottom: 7.1px;
@@ -88,7 +88,7 @@ header {
 
 #since-1966 {
     position: absolute;
-    margin: 57.7px 0px 0px 238px;
+    margin: 57.7px 0 0 238px;
 
     border-bottom: 2.5px solid #EAEAEA;
     padding-bottom: 7.1px;
@@ -117,7 +117,7 @@ header {
 
 #mini-open-daily {
     position: absolute;
-    margin: 43px 0px 0px -278px;
+    margin: 43px 0 0 -278px;
 
     border-bottom: 2px solid #EAEAEA;
     padding-bottom: 4px;
@@ -130,7 +130,7 @@ header {
 
 #mini-since-1966 {
     position: absolute;
-    margin: 43px 0px 0px 159px;
+    margin: 43px 0 0 159px;
 
     border-bottom: 2px solid #EAEAEA;
     padding-bottom: 4px;
@@ -169,7 +169,7 @@ header {
 }
 
 #bar-stick {
-    margin: 0px 19.5px 0px 19.5px;
+    margin: 0 19.5px 0 19.5px;
     height: 85px;
     position: relative;
     flex-wrap: wrap;
@@ -180,31 +180,31 @@ header {
 
 .menu-bar {
     position: relative;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: -175px;
 }
 
 .mail-bar {
     position: relative;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: -255px;
 }
 
 .catering-bar {
     position: relative;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: -220px;
 }
 
 .merch-bar {
     position: relative;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: -185px;
 }
 
 .cold-bar {
     position: relative;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: -257px;
 }
 
@@ -215,7 +215,7 @@ header {
     flex-direction: column;
     align-items: center;
 
-    margin: 30px 0px 50px 0px;
+    margin: 30px 0 50px 0;
     height: 970px;
     width: 700px;
 
@@ -233,17 +233,17 @@ header {
 #food-home {
     width: 100%;
     border-radius: 15px;
-    margin-left: 15%
+    margin-left: 100px
 }
 
 #quote {
     text-align: center;
-    margin: 4% 21% 5% 21%;
+    margin: 23px 21% 23px 21%;
     font-size: 18pt;
 }
 
 #about {
-    margin: -1% 27.5% 0% -6%;
+    margin: 0 200px 0 -40px;
     padding: 15px;
 
     font-size: 14pt;
@@ -255,7 +255,7 @@ header {
 /* Cupstack Sticker */
 #cupstack-sticker {
     position: relative;
-    margin: -350px 0 0 700px;
+    margin: -360px 0 0 650px;
     height: 270px;
     z-index: 1;
 }
@@ -265,7 +265,7 @@ header {
     position: relative;
     height: 250px;
     z-index: 1;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 .sausage-text {
@@ -297,8 +297,8 @@ footer {
 
 #line {
     border: solid 1px #404040;
-    margin: 1%;
-    width: 0px;
+    margin: 13px 20px 13px 20px;
+    width: 0;
 }
 
 #map {
@@ -334,7 +334,7 @@ footer {
 }
 .back-bar {
     position: relative;
-    margin: -70px 0px 13px 0px;
+    margin: -70px 0 13px 0;
 
     font-size: 30pt;
     font-family: rossetti;
@@ -381,7 +381,7 @@ tr:nth-child(odd) {
 
 #main-row {
     color: #EAEAEA;
-    border-radius: 13px 15px 0px 0px;
+    border-radius: 13px 15px 0 0;
     background-color: #A85050;
 }
 
