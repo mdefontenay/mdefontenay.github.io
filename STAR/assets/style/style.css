@@ -1,0 +1,164 @@
+html {
+    display: block;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: black ;
+}
+
+#cover-img {
+    z-index: -1;
+    height: 850px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 80%;
+    perspective: 100px;
+    align-items: center;
+}
+
+#right-menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    font-size: 17pt;
+}
+
+/* ---------------- Menu Bar ----------------*/
+#menu-bar {
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 30px);
+    
+    backdrop-filter: blur(10px);
+
+    z-index: 2;
+}
+
+#star-corner-logo {
+    width: 160px;
+}
+
+#right-menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    font-size: 17pt;
+}
+
+@keyframes fade {
+    0% {opacity: 1;}
+    100% {opacity: 0.7;}
+}
+@keyframes unfade {
+    0% {opacity: 0.7;}
+    100% {opacity: 1;}
+}
+
+#projects, #team, #sponsors, #outreach, #contact-us {
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+}
+
+#projects:hover, #team:hover, #sponsors:hover,#outreach:hover {
+    cursor: pointer;
+    animation: fade 0.2s linear;
+    opacity: 0.7;
+}
+#projects:not(:hover), #team:not(:hover), #sponsors:not(:hover),#outreach:not(:hover) {
+    cursor: pointer;
+    animation: unfade 0.2s linear;
+    opacity: 1;
+}
+
+/* ---------------- Dropdown ----------------*/
+
+#dropdown {
+    color: white;
+}
+
+/* ---------------- Contact Us Button ----------------*/
+@keyframes contact-us-fade {
+    0% {color: white; background-color: 0;}
+    100% {color: black; background-color: white;}
+}
+@keyframes contact-us-unfade {
+    0% {color: 0; background-color: white;}
+    100% {color: white; background-color: 0;}
+}
+
+#contact-us {
+    border: solid 2px white;
+    border-radius: 30px;
+}
+#contact-us:hover {
+    cursor: pointer;
+    animation: contact-us-fade 0.2s linear;
+    color: black;
+    background-color: white;
+}
+#contact-us:not(:hover) {
+    animation: contact-us-unfade 0.2s linear;
+}
+
+/* ---------------- Arrow Down Button ----------------*/
+@keyframes arrow-shift-down {
+    0% {margin-top: -80px;}
+    100% {margin-top: -70px;}
+}
+@keyframes arrow-shift-up {
+    0% {margin-top: -70px;}
+    100% {margin-top: -80px;}
+}
+#arrow-down {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    width: 50px;
+    z-index: 2;
+}
+#arrow-down:hover {
+    animation: arrow-shift-down 0.3s ease-out;
+    margin-top: -70px;
+    cursor: pointer;
+}
+#arrow-down:not(:hover) {
+    animation: arrow-shift-up 0.3s ease-out;
+}
+
+#text-main-page {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 30pt;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: -500px;
+    text-align: right;
+    width: 100%;
+    margin-left: -10px;
+}
+
+#sub-title {
+    font-size: 40pt;
+    text-align: center;
+}
+
+#who-we-are {
+    color: white;
+    margin: 40px 200px 0 200px;
+    font-family: 'Be Vietnam Pro', sans-serif
+}

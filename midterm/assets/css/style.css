@@ -80,6 +80,9 @@ header {
     #since-1966 {
         display: none;
     }
+    #logo {
+        margin-top: 39px;
+    }
 }
 
 #open-daily {
